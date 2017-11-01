@@ -1,0 +1,22 @@
+{
+  "name": "iceberg-cli",
+  "description": "CLI for generate an Iceberg project",
+  "version": "1.0.0",
+  "author": "Kevin Py",
+  "license": "MIT",
+  "main": "./index.js",
+  "bin": {
+    "iceberg": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KevinPy/Iceberg-CLI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KevinPy/Iceberg-CLI/issues"
+  },
+  "devDependencies": {
+    "commander": "^2.11.0",
+    "shelljs": "^0.7.8"
+  }
+}
